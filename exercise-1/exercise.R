@@ -11,9 +11,11 @@ puppies <- 2
 # Create a variable `puppy.price`, which is how expensive you think a puppy is
 puppy.price <- 500
 # Create a variable `total.cost` that has the total cost of all of your puppies
-total.cost <- 500 * 2
+total.cost <- puppies * puppy.price
 # Create a boolean variable `too.expensive`, set to true if the cost is greater than $1,000
 too.expensive <- total.cost > 1000 #
 # Create a variable `max.puppies`, which is the nuber of puppies you can afford for $1K.
 max.puppies <- 2
+
+
 
